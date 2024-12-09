@@ -1,26 +1,36 @@
 {
-  "name": "amazon-products-comparison-tool",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.0.4"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.4"
-  }
+    "name": "amazon-product-comparer",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@radix-ui/react-slot": "^1.0.2",
+        "@types/node": "20.4.5",
+        "@types/react": "18.2.17",
+        "@types/react-dom": "18.2.7",
+        "axios": "^1.4.0",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.0.0",
+        "dotenv": "^16.4.7",
+        "eslint": "8.45.0",
+        "eslint-config-next": "13.4.12",
+        "he": "^1.2.0",
+        "markdown-it": "^14.1.0",
+        "next": "13.4.12",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "tailwind-merge": "^1.14.0",
+        "typescript": "5.1.6"
+    },
+    "devDependencies": {
+        "@types/markdown-it": "^14.1.2",
+        "autoprefixer": "^10.4.20",
+        "postcss": "^8.4.49",
+        "tailwindcss": "^3.4.16"
+    }
 }
