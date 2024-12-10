@@ -103,23 +103,32 @@ GEMINI_API_KEY=your_gemini_api_key
 
 ## File Structure
 ```plaintext
-├── app/
-│   ├── api/
-│   │   ├── compare/
-│   │   │   ├── route.ts  # Backend logic for fetching and analyzing product data
-├── components/
-│   ├── ui/
-│   │   ├── button.tsx  # Custom button component
-│   │   ├── input.tsx   # Custom input component
-│   │   ├── card.tsx    # Custom card component
-│   ├── ProductComparer.tsx  # Main UI logic for product comparison
-├── public/
-├── styles/
-├── .env.example  # Sample environment variables file
-├── .eslintrc.json  # ESLint configuration
-├── tailwind.config.js  # Tailwind CSS configuration
-├── next.config.js  # Next.js configuration
-└── README.md
+├── .next
+├── app
+│   ├── api
+│   │   ├── compare
+│   │       ├── route.ts
+│   ├── components
+│   │   ├── ui
+│   │       ├── button.tsx
+│   │       ├── card.tsx
+│   │       ├── input.tsx
+│   │       ├── ProductComparer.tsx
+├── lib
+├── node_modules
+├── public
+├── types
+├── .env
+├── .eslintrc.json
+├── .gitignore
+├── next-env.d.ts
+├── next.config.js
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+├── tsconfig.json
 ```
 
 ---
